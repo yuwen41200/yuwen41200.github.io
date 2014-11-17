@@ -1,5 +1,9 @@
-personal-website
-================
+#yuwen41200.github.io
 
 Personal Website on NCTU CSCC
-http://people.cs.nctu.edu.tw/~ywpu/
+
+[http://people.cs.nctu.edu.tw/~ywpu/][link]  
+(or [http://yuwen41200.github.io][alt-link] as an alternative)
+
+[link]: http://people.cs.nctu.edu.tw/~ywpu/
+[alt-link]: http://yuwen41200.github.io
