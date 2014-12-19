@@ -5,9 +5,12 @@ body {
 header {
 	padding: 0px 15px 15px 15px;
 }
-section, footer {
-	padding-top: 20px;
+section,
+footer {
 	border-top: 1px solid #E5E5E5;
+}
+section {
+	padding: 20px 0px 20px 0px;
 }
 footer {
 	padding: 20px 15px 0px 15px;
@@ -19,12 +22,22 @@ header div {
 header h3 {
 	margin-bottom: 20px;
 }
+article h3 {
+	margin: 14px 0px 14px 0px;
+}
 footer div {
 	display: inline-block;
 }
 footer div:first-child {
 	vertical-align: 11px;
 	padding-right: 10px;
+}
+article:nth-child(even) {
+	clear: left;
+}
+table thead tr th:last-child,
+table tbody tr td:last-child {
+	width: 110px;
 }
 .container {
 	max-width: 730px;
@@ -37,7 +50,8 @@ footer div:first-child {
 	background-color: #EEE;
 	border-radius: 6px;
 	padding: 20px;
-	margin-bottom: 28px;
+	margin-top: 6px;
+	margin-bottom: 20px;
 }
 .btn-primary {
 	position: relative;
