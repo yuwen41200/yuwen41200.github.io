@@ -39,6 +39,9 @@ table thead tr th:last-child,
 table tbody tr td:last-child {
 	width: 110px;
 }
+abbr {
+	border-bottom-width: 0px !important;
+}
 .container {
 	max-width: 730px;
 }
@@ -47,6 +50,7 @@ table tbody tr td:last-child {
 	margin-right: 0px;
 }
 .jumbotron-custom {
+	position: relative;
 	background-color: #EEE;
 	border-radius: 6px;
 	padding: 20px;
@@ -54,8 +58,12 @@ table tbody tr td:last-child {
 	margin-bottom: 20px;
 }
 .btn-primary {
-	position: relative;
-	left: 224px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+.placeholder {
+	height: 30px;
 }
 .email {
 	position: fixed;
