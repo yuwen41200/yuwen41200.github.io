@@ -1,4 +1,5 @@
 body {
+	font-family: "Alegreya", serif;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -39,8 +40,9 @@ table thead tr th:last-child,
 table tbody tr td:last-child {
 	width: 110px;
 }
-abbr {
-	border-bottom-width: 0px !important;
+table tbody tr td[colspan="2"] {
+	font-style: italic;
+	text-align: center;
 }
 .container {
 	max-width: 730px;
@@ -79,4 +81,9 @@ abbr {
 }
 .email:hover {
 	background-color: #AAA;
+}
+.cjk-fonts {
+	font-family: "source-han-sans-traditional", sans-serif;
+	font-style: normal;
+	font-weight: 100;
 }
