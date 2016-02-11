@@ -46,6 +46,9 @@ section h3 {
 section article:nth-of-type(odd) {
 	clear: left;
 }
+section article h4 small {
+	color: #3380CF;
+}
 section article div {
 	position: relative;
 	background-color: #EEE;
