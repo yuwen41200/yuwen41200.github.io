@@ -61,9 +61,9 @@ section article div p:last-of-type {
 	white-space: pre-wrap;
 }
 section article div p:last-of-type:after {
-	content: "\A\A";
+	content: "\A\A\A";
 }
-section article .btn-primary {
+section article div .btn-primary {
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
