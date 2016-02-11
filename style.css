@@ -41,8 +41,7 @@ table tbody tr td:last-child {
 	width: 110px;
 }
 table tbody tr td[colspan="2"] {
-	font-style: italic;
-	text-align: center;
+	font-weight: bold;
 }
 .container {
 	max-width: 730px;
@@ -82,8 +81,17 @@ table tbody tr td[colspan="2"] {
 .email:hover {
 	background-color: #AAA;
 }
-.cjk-fonts {
+.cjk-norm,
+.cjk-bold {
 	font-family: "source-han-sans-traditional", sans-serif;
 	font-style: normal;
+}
+.cjk-norm {
 	font-weight: 200;
+}
+.cjk-bold {
+	font-weight: 300;
+}
+.pull-right {
+	padding-top: 5px;
 }
