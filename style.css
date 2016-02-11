@@ -1,10 +1,26 @@
+:lang(zh-Hant-TW) {
+	font-family: "source-han-sans-traditional", sans-serif;
+	font-style: normal;
+	font-weight: 200;
+}
 body {
 	font-family: "Alegreya", serif;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	max-width: 730px;
 }
 header {
 	padding: 0px 15px 15px 15px;
+}
+header div {
+	position: relative;
+}
+header h3 {
+	margin-bottom: 20px;
+}
+section.row {
+	margin-left: 0px;
+	margin-right: 0px;
 }
 section:first-of-type,
 footer {
@@ -24,14 +40,27 @@ section h3 {
 section article:nth-of-type(odd) {
 	clear: left;
 }
+section article div {
+	position: relative;
+	background-color: #EEE;
+	border-radius: 6px;
+	padding: 20px;
+	margin-top: 6px;
+	margin-bottom: 20px;
+}
+section article div p:last-of-type {
+	white-space: pre-wrap;
+}
+section article div p:last-of-type:after {
+	content: "\A\A";
+}
+section article .btn-primary {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
 footer {
 	padding: 20px 15px 0px 15px;
-}
-header div {
-	position: relative;
-}
-header h3 {
-	margin-bottom: 20px;
 }
 footer div {
 	display: inline-block;
@@ -47,33 +76,13 @@ table tbody tr td:last-child {
 table tbody tr td[colspan] {
 	font-weight: bold;
 }
+table tbody tr td[colspan] span:lang(zh-Hant-TW) {
+	font-weight: 500;
+}
 table tbody tr td:first-child:not([colspan]) {
 	text-indent: 25px;
 }
-.container {
-	max-width: 730px;
-}
-.row {
-	margin-left: 0px;
-	margin-right: 0px;
-}
-.jumbotron-custom {
-	position: relative;
-	background-color: #EEE;
-	border-radius: 6px;
-	padding: 20px;
-	margin-top: 6px;
-	margin-bottom: 20px;
-}
-.btn-primary {
-	position: absolute;
-	right: 20px;
-	bottom: 20px;
-}
-.placeholder {
-	height: 30px;
-}
-.email {
+#scroll-top {
 	position: fixed;
 	right: 0px;
 	bottom: 0px;
@@ -85,17 +94,6 @@ table tbody tr td:first-child:not([colspan]) {
 	border-top-right-radius: 6px;
 	cursor: pointer;
 }
-.email:hover {
+#scroll-top:hover {
 	background-color: #AAA;
-}
-.cjk-norm,
-.cjk-bold {
-	font-family: "source-han-sans-traditional", sans-serif;
-	font-style: normal;
-}
-.cjk-norm {
-	font-weight: 200;
-}
-.cjk-bold {
-	font-weight: 500;
 }
