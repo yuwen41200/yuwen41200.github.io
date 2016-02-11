@@ -63,10 +63,12 @@ section article div p:last-of-type {
 section article div p:last-of-type:after {
 	content: "\A\A\A";
 }
-section article div .btn-primary {
+section article div .btn-group {
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
+	padding: 0px;
+	margin: 0px;
 }
 footer {
 	padding: 20px 15px 0px 15px;
