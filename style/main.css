@@ -14,7 +14,7 @@ header {
 	padding-right: 15px;
 	padding-bottom: 15px;
 }
-header div {
+header nav {
 	position: relative;
 }
 header h3 {
@@ -23,6 +23,14 @@ header h3 {
 header p.lead {
 	font-size: 16px;
 	margin-bottom: 0px;
+}
+header div {
+	display: inline-block;
+}
+header div:first-of-type {
+	vertical-align: 46px;
+	padding-left: 6px;
+	padding-right: 25px;
 }
 section.row {
 	margin-left: 0px;
@@ -63,7 +71,7 @@ section article div p:last-of-type {
 section article div p:last-of-type:after {
 	content: "\A\A\A";
 }
-section article div .btn-group {
+section article div div.btn-group {
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
@@ -76,12 +84,12 @@ footer {
 footer div {
 	display: inline-block;
 }
-footer div:first-child {
+footer div:first-of-type {
 	vertical-align: 11px;
 	padding-right: 10px;
 }
-table thead tr th:last-child,
-table tbody tr td:last-child {
+table thead tr th:last-of-type,
+table tbody tr td:last-of-type {
 	width: 100px;
 }
 table tbody tr td[colspan] {
@@ -90,7 +98,7 @@ table tbody tr td[colspan] {
 table tbody tr td[colspan] span:lang(zh-Hant-TW) {
 	font-weight: 500;
 }
-table tbody tr td:first-child:not([colspan]) {
+table tbody tr td:first-of-type:not([colspan]) {
 	text-indent: 25px;
 }
 #scroll-top {
