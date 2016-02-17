@@ -112,6 +112,7 @@ table tbody tr td:first-of-type:not([colspan]) {
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 	cursor: pointer;
+	display: none;
 }
 #scroll-top:hover {
 	background-color: #AAA;
