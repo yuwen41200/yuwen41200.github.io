@@ -6,13 +6,14 @@ $(document).ready(function() {
 			"unless you upgrade your browser to the latest version.");
 		window.location.replace("http://people.cs.nctu.edu.tw/~ywpu/img/snapshot.png");
 	}
+	var backToTop = $("#scroll-top");
 	$(window).on("scroll", function() {
 		if ($(this).scrollTop() > 0)
-			$("#scroll-top").show("fast");
+			backToTop.show("fast");
 		else
-			$("#scroll-top").hide("fast");
+			backToTop.hide("fast");
 	});
-	$("#scroll-top").on("click", function() {
+	backToTop.on("click", function() {
 		$("html, body").animate({ scrollTop: 0 });
 	});
 });
