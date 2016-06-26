@@ -4,7 +4,9 @@
 	font-weight: 200;
 }
 body {
-	font-family: "Alegreya", serif;
+	font-family: "source-serif-pro", serif;
+	font-style: normal;
+	font-weight: 400;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	max-width: 730px;
@@ -18,19 +20,24 @@ header nav {
 	position: relative;
 }
 header h3 {
+	font-weight: 400;
 	margin-bottom: 20px;
 }
 header p.lead {
-	font-size: 16px;
+	font-weight: 400;
+	font-size: 14.5px;
 	margin-bottom: 0px;
 }
 header div {
 	display: inline-block;
 }
 header div:first-of-type {
-	vertical-align: 46px;
+	vertical-align: 41px;
 	padding-left: 6px;
 	padding-right: 25px;
+}
+header .btn {
+	font-weight: 400;
 }
 section.row {
 	margin-left: 0px;
@@ -47,6 +54,7 @@ section:last-of-type {
 	padding-bottom: 20px;
 }
 section h3 {
+	font-weight: 400;
 	margin: 14px 0px 14px 0px;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -54,7 +62,12 @@ section h3 {
 section article:nth-of-type(odd) {
 	clear: left;
 }
+section article h4 {
+	font-weight: 400;
+	margin-top: 12px;
+}
 section article h4 small {
+	padding-left: 6px;
 	color: #3380CF;
 }
 section article div {
@@ -78,6 +91,15 @@ section article div div.btn-group {
 	padding: 0px;
 	margin: 0px;
 }
+section .oi.oi-external-link {
+	margin-right: 0.5em;
+}
+section .oi.oi-document {
+	margin-right: 0.4em;
+}
+section .btn {
+	font-weight: 400;
+}
 footer {
 	padding: 20px 15px 0px 15px;
 }
@@ -92,8 +114,9 @@ table thead tr th:last-of-type,
 table tbody tr td:last-of-type {
 	width: 100px;
 }
+table thead tr th,
 table tbody tr td[colspan] {
-	font-weight: bold;
+	font-weight: 600;
 }
 table tbody tr td[colspan] span:lang(zh-Hant-TW) {
 	font-weight: 500;
