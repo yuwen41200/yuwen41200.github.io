@@ -4,7 +4,7 @@ $(document).ready(function() {
 		window.alert("Sorry, but your browser is outdated.\n" +
 			"You can only view the snapshot of the website\n" +
 			"unless you upgrade your browser to the latest version.");
-		window.location.replace("http://people.cs.nctu.edu.tw/~ywpu/img/snapshot.png");
+		window.location.replace("http://ywpu.me/img/snapshot.png");
 	}
 	var backToTop = $("#scroll-top");
 	$(window).on("scroll", function() {
