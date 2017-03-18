@@ -25,14 +25,14 @@ header h3 {
 }
 header p.lead {
 	font-weight: 400;
-	font-size: 14.5px;
-	margin-bottom: 0px;
+	font-size: 15px;
+	margin-bottom: 0;
 }
 header div {
 	display: inline-block;
 }
 header div:first-of-type {
-	vertical-align: 41px;
+	vertical-align: 43px;
 	padding-left: 6px;
 	padding-right: 25px;
 }
@@ -40,8 +40,8 @@ header .btn {
 	font-weight: 400;
 }
 section.row {
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 0;
+	margin-right: 0;
 }
 section:first-of-type,
 footer {
@@ -55,7 +55,7 @@ section:last-of-type {
 }
 section h3 {
 	font-weight: 400;
-	margin: 14px 0px 14px 0px;
+	margin: 14px 0 14px 0;
 	padding-left: 15px;
 	padding-right: 15px;
 }
@@ -88,20 +88,17 @@ section article div div.btn-group {
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
-section .oi.oi-external-link {
-	margin-right: 0.5em;
-}
-section .oi.oi-document {
+section article i.fa {
 	margin-right: 0.4em;
 }
 section .btn {
 	font-weight: 400;
 }
 footer {
-	padding: 20px 15px 0px 15px;
+	padding: 20px 15px 0 15px;
 }
 footer div {
 	display: inline-block;
@@ -126,8 +123,8 @@ table tbody tr td:first-of-type:not([colspan]) {
 }
 #scroll-top {
 	position: fixed;
-	right: 0px;
-	bottom: 0px;
+	right: 0;
+	bottom: 0;
 	padding: 6px 12px;
 	margin-right: 10px;
 	background-color: #8F8F8F;
