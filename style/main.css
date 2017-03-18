@@ -121,6 +121,9 @@ table tbody tr td[colspan] span:lang(zh-Hant-TW) {
 table tbody tr td:first-of-type:not([colspan]) {
 	text-indent: 25px;
 }
+dl {
+	margin-bottom: 10px;
+}
 #scroll-top {
 	position: fixed;
 	right: 0;

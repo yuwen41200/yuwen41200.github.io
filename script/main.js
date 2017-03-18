@@ -1,9 +1,11 @@
 $(document).ready(function() {
 	"use strict";
 	if (window.navigator.userAgent.indexOf("MSIE") > 0) {
-		window.alert("Sorry, but your browser is outdated.\n" +
+		window.alert(
+			"Sorry, but your browser is outdated.\n" +
 			"You can only view the snapshot of the website\n" +
-			"unless you upgrade your browser to the latest version.");
+			"unless you upgrade your browser to the latest version."
+		);
 		window.location.replace("http://ywpu.me/img/snapshot.png");
 	}
 	var backToTop = $("#scroll-top");
