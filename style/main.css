@@ -84,6 +84,12 @@ section article div p:last-of-type {
 section article div p:last-of-type:after {
 	content: "\A\A\A";
 }
+section article div dl dd:last-of-type {
+	white-space: pre-wrap;
+}
+section article div dl dd:last-of-type:after {
+	content: "\A\A\A";
+}
 section article div div.btn-group {
 	position: absolute;
 	right: 20px;
