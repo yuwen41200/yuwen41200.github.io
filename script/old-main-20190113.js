@@ -8,7 +8,7 @@ $(document).ready(function() {
 //		);
 //		window.location.replace("http://ywpu.me/img/snapshot.png");
 //	}
-	var backToTop = $("#scroll-top");
+	const backToTop = $("#scroll-top");
 	$(window).on("scroll", function() {
 		if ($(this).scrollTop() > 0)
 			backToTop.show("fast");
