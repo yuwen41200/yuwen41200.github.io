@@ -1,0 +1,29 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	font-family: "source-serif-pro", serif;
+	font-style: normal;
+	font-weight: 400;
+}
+:lang(zh-Hant-TW) {
+	font-family: "source-han-sans-traditional", sans-serif;
+	font-style: normal;
+	font-weight: 200;
+}
+article {
+	padding: 20px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+article h3 {
+	color: #337ab7;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+article h3,
+article p,
+article .btn {
+	font-weight: 400;
+}
