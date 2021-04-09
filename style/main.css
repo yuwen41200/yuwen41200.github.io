@@ -33,3 +33,6 @@ article > div:first-of-type {
 div.entry {
 	margin-bottom: 1.5rem;
 }
+div.entry div.flex-grow-1 {
+	font-weight: 600;
+}
