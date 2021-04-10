@@ -42,6 +42,12 @@ article > div:first-of-type {
 div.entry {
 	margin-bottom: 1.5rem;
 }
-div.entry div.flex-grow-1 {
+div.entry > div:not(:last-of-type) > div.flex-grow-1 {
 	font-weight: 600;
+}
+.circles {
+	color: slategrey;
+}
+.circles span {
+	color: lightgrey;
 }
