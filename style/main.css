@@ -30,6 +30,15 @@ article > div:first-of-type {
 	text-align: right;
 	margin-bottom: 1.5rem;
 }
+/*noinspection CssFloatPxLength*/
+@media (max-width: 767.98px) {
+	article > div:first-of-type {
+		text-align: center;
+	}
+	article > div:first-of-type > div {
+		float: none !important;
+	}
+}
 div.entry {
 	margin-bottom: 1.5rem;
 }
