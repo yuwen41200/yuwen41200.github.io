@@ -11,6 +11,18 @@ body {
 .container {
 	max-width: 800px;
 }
+@media print {
+	.container {
+		width: 21cm;
+	}
+}
+ul {
+	padding-left: 1.3rem;
+	list-style-type: circle;
+}
+strong {
+	font-weight: 600;
+}
 a, a:hover {
 	color: inherit;
 	text-decoration: none;
