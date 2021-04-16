@@ -74,3 +74,7 @@ div.entry > div:not(:last-of-type) > div.flex-grow-1 {
 div.entry-subheading i.fa {
 	font-size: 0.8em;
 }
+div.entry > div.d-flex.flex-wrap > div:not(:first-of-type):not(.circles),
+div.entry-subheading {
+	color: #5d656c;
+}
