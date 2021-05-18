@@ -16,9 +16,10 @@ body {
 		width: 21cm;
 	}
 }
-ul {
-	padding-left: 1.3rem;
+div.entry-subheading > ul {
+	padding-left: 1.5rem;
 	list-style-type: circle;
+	margin-bottom: 0;
 }
 strong {
 	font-weight: 600;
