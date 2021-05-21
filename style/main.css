@@ -16,11 +16,35 @@ body {
 		width: 21cm;
 	}
 }
-div.entry-subheading > ul {
+div.entry-subheading > ul:first-of-type {
 	padding-left: 1.5rem;
 	list-style-type: circle;
+	margin-left: 0;
 	margin-bottom: 0;
 }
+/**
+ * Adapted from: https://github.com/FortAwesome/Font-Awesome/blob/v4.7.0/less/list.less
+ * By Font Awesome (https://fontawesome.com), MIT License
+ */
+div.entry-subheading > ul:last-of-type {
+	padding-left: 1.5rem;
+	list-style-type: none;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+div.entry-subheading > ul:last-of-type > li {
+	position: relative;
+}
+div.entry-subheading > ul:last-of-type > li > i.fa {
+	position: absolute;
+	left: -2.25em;
+	width: 2.25em;
+	top: 0.5em;
+	text-align: center;
+}
+/**
+ * End of adapted code
+ */
 strong {
 	font-weight: 600;
 }
@@ -77,6 +101,9 @@ div.entry-subheading i.fa {
 }
 div.entry-subheading i.fa.fa-lock {
 	font-size: initial;
+	left: -1.85em !important;
+	width: 1.85em !important;
+	top: 0.3em !important;
 }
 div.entry > div.d-flex.flex-wrap > div:not(:first-of-type):not(.circles),
 div.entry-subheading {
