@@ -22,6 +22,13 @@ div.entry-subheading > ul:first-of-type {
 	margin-left: 0;
 	margin-bottom: 0;
 }
+div.entry-subheading > ul:first-of-type > li {
+	text-align: justify;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
 /**
  * Adapted from: https://github.com/FortAwesome/Font-Awesome/blob/v4.7.0/less/list.less
  * By Font Awesome (https://fontawesome.com), MIT License
