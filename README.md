@@ -2,4 +2,4 @@
 
 My Personal Website
 
-https://ywpu.me/
+https://ywpu.me
